@@ -25,7 +25,7 @@ resource "aws_iam_policy" "finance_policy" {
         Action   = [
           "ce:*",              # Cost Explorer
           "budgets:*",         # AWS Budgets
-          "ec2:Describe*",     # Resources Read-only 
+          "ec2:Describe*",     # Read-only compute visibility
           "s3:ListBucket"
         ]
         Resource = "*"
