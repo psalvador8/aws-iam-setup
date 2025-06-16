@@ -1,5 +1,7 @@
 # AWS IAM Terraform Setup
 
+Access Medum article [here](https://medium.com/@psalvador8/️-secure-iam-setup-on-aws-moving-beyond-the-root-account-in-startups-41b7534da869).
+
 This Terraform project manages AWS IAM users, groups, policies, and MFA enforcement for multiple departments.
 
 
